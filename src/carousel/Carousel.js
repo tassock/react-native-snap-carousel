@@ -1278,6 +1278,7 @@ export default class Carousel extends Component {
             onStartShouldSetResponderCapture: this._onStartShouldSetResponderCapture,
             onTouchStart: this._onTouchStart,
             onLayout: this._onLayout,
+            keyboardShouldPersistTaps: 'always',
             ...specificProps
         };
     }
